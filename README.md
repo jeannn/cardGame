@@ -16,14 +16,26 @@ The project required implementing multiple C++ classes (e.g., `Deck.cpp`, `Deck.
 - **Modular Structure:** Clean separation of header (`.h`) and implementation (`.cpp`) files.  
 
 ---
+## 📥 Download from my Portfolio
 
+If you download the game directly from my portfolio, your browser might save the file as:
+jeu.exe.crdownload
 
-## ⚙️ How to Run
+Before running it:
+
+Rename the file from jeu.exe.crdownload → jeu.exe
+
+Then, open the file normally.
+
+This happens because .crdownload is a temporary download extension added by browsers like Chrome when downloading files from embedded links.
+
+## ⚙️ How to Run the code
 1. **Compile** the program using a C++ compiler (e.g., g++)  
    ```bash
    g++ -std=c++17 main.cpp Deck.cpp -o project
 2. open the file generated jeu.exe
 3. Follow the on-screen prompts to play, save, or load a session.
+
 
 ## 🧠 Learning Outcomes
 
@@ -34,4 +46,5 @@ Object-oriented design and modular C++ programming.
 File handling and persistent data storage.
 
 Project organization, compilation, and testing workflows.
+
 
